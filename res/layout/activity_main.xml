@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something to save" />
+
+    <Button android:id="@+id/btn_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save file"/>
+    
+    <Button android:id="@+id/btn_pre_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save preference activity"/>
+        
+    <Button android:id="@+id/btn_pre_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save preference context"/>
+    
+    <Button android:id="@+id/btn_pre_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save preference manager"/>
+
+
+</LinearLayout>
